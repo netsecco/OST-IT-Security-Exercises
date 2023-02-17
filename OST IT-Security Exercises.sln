@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash-OTP", "Hash-OTP\Hash-OTP.csproj", "{7ACD5C10-027B-4D42-9B74-850310002E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils", "utils\utils.csproj", "{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ACD5C10-027B-4D42-9B74-850310002E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACD5C10-027B-4D42-9B74-850310002E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACD5C10-027B-4D42-9B74-850310002E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACD5C10-027B-4D42-9B74-850310002E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85EA2CF8-8BA0-454D-BE09-619C0B2A11B9}
+	EndGlobalSection
+EndGlobal
