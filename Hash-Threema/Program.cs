@@ -11,6 +11,13 @@ namespace Hash_Threema
 
             ThreemaLookup.init();
 
+            //string hash = utils.Helpers.Sha256("+41775788338");
+            //ThreemaLookup.registerId("ABCDEF00", hash);
+            //hash = utils.Helpers.Sha256("+41791234560");
+            //ThreemaLookup.registerId("ABCDEF01", hash); 
+            //hash = utils.Helpers.Sha256("+41781235555");
+            //ThreemaLookup.registerId("ABCDEF02", hash);
+
             string hash = utils.Helpers.Sha256("+41781235555");
             string result = ThreemaLookup.lookup(hash);
             Console.WriteLine("Threema lookup: {0}", result);
