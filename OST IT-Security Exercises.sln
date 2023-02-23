@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash-OTP", "Hash-OTP\Hash-O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils", "utils\utils.csproj", "{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-Password", "Hash-Password\Hash-Password.csproj", "{FF9B9124-6C84-4627-B64E-66C398FAE900}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-Threema", "Hash-Threema\Hash-Threema.csproj", "{5B3CD962-6868-4571-A419-5D6C41DC499C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9B9124-6C84-4627-B64E-66C398FAE900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9B9124-6C84-4627-B64E-66C398FAE900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9B9124-6C84-4627-B64E-66C398FAE900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9B9124-6C84-4627-B64E-66C398FAE900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3CD962-6868-4571-A419-5D6C41DC499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3CD962-6868-4571-A419-5D6C41DC499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3CD962-6868-4571-A419-5D6C41DC499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3CD962-6868-4571-A419-5D6C41DC499C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
