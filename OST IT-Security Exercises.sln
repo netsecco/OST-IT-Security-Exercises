@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-OTP", "Hash-OTP\Hash-O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utils", "utils\utils.csproj", "{C977B69B-AEA2-40F0-9A3C-BF469ECB16C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash-Password", "Hash-Password\Hash-Password.csproj", "{C90A67C5-AAC6-4A84-BB26-EF385D925142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-Password", "Hash-Password\Hash-Password.csproj", "{C90A67C5-AAC6-4A84-BB26-EF385D925142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash-Threema", "Hash-Threema\Hash-Threema.csproj", "{04526A49-1B0C-4269-A1DB-7B8BA24C114A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-Threema", "Hash-Threema\Hash-Threema.csproj", "{04526A49-1B0C-4269-A1DB-7B8BA24C114A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SYMENC-ModesXor", "SYMENC-ModesXor\SYMENC-ModesXor.csproj", "{1D46C432-813C-4640-BE25-80B27F0959F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SYMENC-ModesXor", "SYMENC-ModesXor\SYMENC-ModesXor.csproj", "{1D46C432-813C-4640-BE25-80B27F0959F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymEncrypt-SecureString", "SymEncrypt-SecureString\SymEncrypt-SecureString.csproj", "{333D44CC-BD9A-4BF2-BF9E-795879C64A3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1D46C432-813C-4640-BE25-80B27F0959F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D46C432-813C-4640-BE25-80B27F0959F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D46C432-813C-4640-BE25-80B27F0959F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333D44CC-BD9A-4BF2-BF9E-795879C64A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333D44CC-BD9A-4BF2-BF9E-795879C64A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333D44CC-BD9A-4BF2-BF9E-795879C64A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333D44CC-BD9A-4BF2-BF9E-795879C64A3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
