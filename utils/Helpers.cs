@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
+using System.Globalization;
+using System.Collections;
 
 namespace utils
 {
@@ -31,6 +33,26 @@ namespace utils
             byte[] data = System.Text.Encoding.UTF8.GetBytes(text);
             byte[] hash = Sha256(data);
             return ByteArrayToHexString(hash);
+        }
+
+        public static string ByteToBin(byte b)
+        {
+            return Convert.ToString(b, 2).PadLeft(8, '0');
+        }
+
+        public static string ByteToHex(byte b)
+        {
+            return Convert.ToString(b, 16).PadLeft(2, '0');
+        }
+
+        public static byte HexToByte(string hex)
+        {
+            return byte.Parse(hex, NumberStyles.HexNumber, CultureInfo.InvariantCulture);
+        }
+
+        public static byte Xor (byte b1, byte b2)
+        {
+            return (byte) (b1 ^ b2);
         }
 
     }
