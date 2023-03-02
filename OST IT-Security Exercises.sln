@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-Password", "Hash-Passw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-Threema", "Hash-Threema\Hash-Threema.csproj", "{5B3CD962-6868-4571-A419-5D6C41DC499C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymEncrypt-SecureString", "SymEncrypt-SecureString\SymEncrypt-SecureString.csproj", "{7A138FAD-7DF0-4A8C-856C-09B5585BAA99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5B3CD962-6868-4571-A419-5D6C41DC499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B3CD962-6868-4571-A419-5D6C41DC499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B3CD962-6868-4571-A419-5D6C41DC499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A138FAD-7DF0-4A8C-856C-09B5585BAA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A138FAD-7DF0-4A8C-856C-09B5585BAA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A138FAD-7DF0-4A8C-856C-09B5585BAA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A138FAD-7DF0-4A8C-856C-09B5585BAA99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
